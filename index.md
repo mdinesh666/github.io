@@ -7,12 +7,15 @@ permalink: /
   /* --- CSS STYLES --- */
 
   /* 1. The Grid Container (Keeps previous spacing fixes) */
+  .about_sec{
+    margin-bottom:3rem;
+  }
   .project-grid {
     display: grid;
     grid-template-columns: 1fr 1fr; /* 2 equal columns */
     gap: 25px; /* Explicit gap between items */
-    row-gap: 64px; /* Extra vertical breathing room */
-    margin-top: 3rem;
+    row-gap: 30px; /* Extra vertical breathing room */
+    margin-top: 1rem;
     margin-bottom: 3rem;
   }
 
@@ -94,9 +97,10 @@ permalink: /
   }
 </style>
 
-Hi, I'm **Muthudinesh**.
-
-I'm a Product Designer at Congruent. By day, I build robust enterprise applications. By night, I tinker with electronics and AI. I bridge the gap between "it looks good" and "it actually works."
+<div class="about_sec">
+  <p></p>Hi, I'm **Muthudinesh**.</div>p>
+  <p>I'm a Product Designer at Congruent. By day, I build robust enterprise applications. By night, I tinker with electronics and AI. I bridge the gap between "it looks good" and "it actually works."</p>
+</div>
 
 
 ## My Works
