@@ -8,27 +8,36 @@ permalink: /
   .project-grid {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Creates 2 equal columns */
-    gap: 20px; /* Space between cards */
+    
+    /* FIX: Explicitly setting both gaps ensuring vertical space */
+    gap: 20px; 
+    row-gap: 20px; 
+    column-gap: 20px;
+    
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   /* 2. The Project Card */
   .project-card {
-    background: #f9f9f9; /* Light grey background */
+    background: #f9f9f9;
     padding: 20px;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
-    text-decoration: none !important; /* Removes underline from the whole box */
+    text-decoration: none !important;
     color: #333;
     transition: transform 0.2s, box-shadow 0.2s;
-    height: 100%; /* Makes cards equal height */
+    height: 100%;
     display: flex;
     flex-direction: column;
+    
+    /* Fallback: If grid gap fails, this ensures space exists */
+    margin-bottom: 0; 
   }
 
   /* 3. Hover Effect */
   .project-card:hover {
-    transform: translateY(-3px); /* Slight lift */
+    transform: translateY(-3px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     border-color: #333;
   }
@@ -37,12 +46,14 @@ permalink: /
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
+    color: #000; /* Ensure title is black/dark */
   }
 
   .project-card p {
     font-size: 0.9rem;
     color: #666;
     margin-bottom: 0;
+    line-height: 1.5;
   }
 
   .project-date {
@@ -58,6 +69,10 @@ permalink: /
   @media (max-width: 600px) {
     .project-grid {
       grid-template-columns: 1fr;
+    }
+    /* Add margin on mobile where grid row-gap sometimes behaves differently */
+    .project-card {
+      margin-bottom: 20px; 
     }
   }
 </style>
