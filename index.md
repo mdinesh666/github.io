@@ -98,8 +98,7 @@ permalink: /
 </style>
 
 <div class="about_sec">
-  <p></p>Hi, I'm **Muthudinesh**.</div>p>
-  <p>I'm a Product Designer at Congruent. By day, I build robust enterprise applications. By night, I tinker with electronics and AI. I bridge the gap between "it looks good" and "it actually works."</p>
+  <p>Hi, I'm Muthudinesh. I'm a Product Designer at Congruent. By day, I build robust enterprise applications. By night, I tinker with electronics and AI. I bridge the gap between "it looks good" and "it actually works."</p>
 </div>
 
 
