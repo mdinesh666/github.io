@@ -108,11 +108,19 @@ permalink: /
 <h2>My Works</h2>
 
 <div class="project-grid">
-
+    <a href="#" class="project-card">
+    <div class="card-content">
+      <span class="project-date">Aug 2025</span>
+      <h4>Figma to Code Agent</h4>
+      <p>An AI experiment leveraging prompt engineering to automate design-to-dev handoffs.</p>
+    </div>
+    <img src="https://picsum.photos/id/3/600/400" alt="AI Code Interface" class="card-img">
+  </a>
+  
   <a href="./project-1" class="project-card">
     <div class="card-content">
       <span class="project-date">Oct 2025</span>
-      <h4>GPS Navigator</h4>
+      <h4>Mapper</h4>
       <p>A minimalist pure navigation hardware device built for delivery partners using ESP32.</p>
     </div>
     <img src="https://picsum.photos/id/1/600/400" alt="GPS Device Prototype" class="card-img">
@@ -121,28 +129,11 @@ permalink: /
   <a href="#" class="project-card">
     <div class="card-content">
       <span class="project-date">Sep 2025</span>
-      <h4>Email System Design</h4>
+      <h4>Enterprise design system</h4>
       <p>Redesigning the HTML email template structure for better responsive behavior across clients.</p>
     </div>
     <img src="https://picsum.photos/id/2/600/400" alt="Responsive Email Designs" class="card-img">
   </a>
 
-  <a href="#" class="project-card">
-    <div class="card-content">
-      <span class="project-date">Aug 2025</span>
-      <h4>Figma to Code Agent</h4>
-      <p>An AI experiment leveraging prompt engineering to automate design-to-dev handoffs.</p>
-    </div>
-    <img src="https://picsum.photos/id/3/600/400" alt="AI Code Interface" class="card-img">
-  </a>
-
-  <a href="#" class="project-card">
-    <div class="card-content">
-      <span class="project-date">Jul 2025</span>
-      <h4>Enterprise Design System</h4>
-      <p>Building a robust UI kit and documentation for complex 401k record-keeping dashboards.</p>
-       <img src="https://picsum.photos/id/4/600/400" alt="Design System Components" class="card-img">
-    </div>
-  </a>
 
 </div>
