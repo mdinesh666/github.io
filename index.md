@@ -5,8 +5,7 @@ order: 1
 ---
 
 Hello, I'm Muthudinesh.
-I'm a Product Designer at Congruent. I specialize in translating complex B2B chaos into clean, accessible designs. I love a good logic puzzle—mostly because simple problems are just too boring.
----
+I'm a Product Designer at Congruent. By day, I build robust enterprise applications. By night, I tinker with electronics and AI. I bridge the gap between "it looks good" and "it actually works."
 
 ### [GPS Navigation Device](./project-1)
 **Oct 2025** A minimalist pure navigation device built for delivery partners using ESP32.
