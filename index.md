@@ -1,13 +1,11 @@
 ---
 layout: home
-title: Work
 list_title: Selected Works
 order: 1
 ---
 
-Hello, I'm a **Product Designer**.
-I build simple tools for complex problems. Here is a collection of my recent work.
-
+Hello, I'm Muthudinesh.
+I'm a Product Designer at Congruent. I specialize in translating complex B2B chaos into clean, accessible designs. I love a good logic puzzle—mostly because simple problems are just too boring.
 ---
 
 ### [GPS Navigation Device](./project-1)
