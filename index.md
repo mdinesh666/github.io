@@ -11,7 +11,7 @@ permalink: /
     margin: 3rem 0;
   }
   .about_sec p{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .project-grid {
     display: grid;
