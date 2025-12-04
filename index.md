@@ -8,7 +8,10 @@ permalink: /
 
   /* 1. The Grid Container (Keeps previous spacing fixes) */
   .about_sec{
-    margin-bottom:3rem;
+    margin: 3rem 0;
+  }
+  .about_sec p{
+    font-size: 1.5rem;
   }
   .project-grid {
     display: grid;
@@ -63,7 +66,7 @@ permalink: /
     margin-top: 0;
     margin-bottom: 12px;
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #111;
     line-height: 1.3;
   }
@@ -102,7 +105,7 @@ permalink: /
 </div>
 
 
-## My Works
+<h2>My Works</h2>
 
 <div class="project-grid">
 
