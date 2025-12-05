@@ -1,7 +1,7 @@
 ---
-layout: page
-title: "" 
-permalink: /figmacodegen-agent/
+layout: post 
+date: 2025-10-21
+categories: [case-study]
 ---
 
 <style>
