@@ -182,16 +182,16 @@ permalink: /about/
 </style>
 
 <nav class="custom-nav">
-  <a href="/" class="nav-logo">
-    <img src="./assets/avatar.png" alt="Muthudinesh" class="logo-img">
-    <div class="profile-info">
-      <span class="profile-name">Muthudinesh</span>
-      <div class="status-chip open">
-        <span class="status-dot"></span>
-        <span class="status-text">Available</span>
-      </div>
+<a href="/" class="nav-logo">
+<img src="{{ '/assets/avatar.png' | relative_url }}" alt="Muthudinesh" class="logo-img">
+  <div class="profile-info">
+    <span class="profile-name">Muthudinesh</span>
+    <div class="status-chip open">
+      <span class="status-dot"></span>
+      <span class="status-text">OPEN TO WORK</span>
     </div>
-  </a>
+  </div>
+</a>
 
   <div class="hamburger">
     <span></span><span></span><span></span>
