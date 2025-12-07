@@ -403,8 +403,7 @@ project-card h3 {
 
 <nav class="custom-nav">
 <a href="/" class="nav-logo">
-  <img src="./assets/avatar.png" alt="Muthudinesh" class="logo-img">
-  
+<img src="{{ '/assets/avatar.png' | relative_url }}" alt="Muthudinesh" class="logo-img">  
   <div class="profile-info">
     <span class="profile-name">Muthudinesh</span>
     <div class="status-chip open">
