@@ -14,12 +14,14 @@ permalink: /
     padding-right: 5% !important;
   }
 
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-    color: #111;
-    background: #fff;
-    margin: 0;
-  }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+  color: #111;
+  background-color: #fff;
+  /* Adds a subtle noise texture image */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+  margin: 0;
+}
 
   /* --- 2. CUSTOM NAVIGATION BAR --- */
   .custom-nav {
@@ -164,13 +166,31 @@ permalink: /
     display: block;
   }
 
-  .project-card h3 {
-    margin: 0 0 10px 0;
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: #111;
-    line-height: 1.3;
-  }
+project-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #111;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space for the arrow */
+}
+
+/* Create the arrow using CSS pseudo-element */
+.project-card h3::after {
+  content: "→";
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+  font-weight: 300;
+}
+
+/* On Card Hover, show and move the arrow */
+.project-card:hover h3::after {
+  opacity: 1;
+  transform: translateX(0);
+}
 
   .project-card p {
     font-size: 0.85rem;
@@ -263,6 +283,27 @@ permalink: /
       gap: 20px;
     }
   }
+
+  /* Define the animation */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Apply to elements */
+.intro-section, .work-section-title, .project-card, .custom-footer {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0; /* Start hidden */
+}
+
+/* Stagger the delays so they load one by one */
+.custom-nav { animation-delay: 0s; }
+.intro-section { animation-delay: 0.2s; }
+.work-section-title { animation-delay: 0.4s; }
+.project-card:nth-child(1) { animation-delay: 0.5s; }
+.project-card:nth-child(2) { animation-delay: 0.6s; }
+.project-card:nth-child(3) { animation-delay: 0.7s; }
+.custom-footer { animation-delay: 0.9s; }
 </style>
 
 <nav class="custom-nav">
