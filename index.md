@@ -4,10 +4,8 @@ permalink: /
 ---
 
 <style>
-  /* --- 1. LAYOUT OVERRIDES (Make it Wide) --- */
+  /* --- 1. LAYOUT OVERRIDES --- */
   header.site-header { display: none !important; }
-  
-  /* Hides the default theme footer */
   footer.site-footer { display: none !important; }
 
   .wrapper {
@@ -46,7 +44,6 @@ permalink: /
     height: 60px;
   }
 
-  /* Desktop Menu */
   .nav-links {
     display: flex;
     gap: 30px;
@@ -182,17 +179,27 @@ permalink: /
     line-height: 1.5;
   }
 
-  /* --- 6. CUSTOM FOOTER --- */
+  /* --- 6. CUSTOM FOOTER (UPDATED) --- */
   .custom-footer {
-    text-align: center;
-    padding: 60px 0 40px 0; /* Top/Bottom padding */
+    display: flex;
+    justify-content: space-between; /* Pushes left and right content apart */
+    align-items: center;
+    padding: 60px 0 40px 0;
     margin-top: 40px;
-    border-top: 1px solid #f0f0f0; /* Optional: Very subtle separator line */
+    border-top: 1px solid #f0f0f0;
     font-size: 1rem;
     font-weight: 500;
+  }
+
+  .footer-left {
     display: flex;
-    justify-content: center;
     align-items: center;
+  }
+
+  .footer-right {
+    font-size: 0.85rem;
+    color: #888;
+    font-weight: 400;
   }
 
   .custom-footer a {
@@ -208,8 +215,8 @@ permalink: /
     width: 4px;
     height: 4px;
     background-color: #111;
-    border-radius: 50%; /* Makes it a circle */
-    margin: 0 20px; /* Space around the circle */
+    border-radius: 50%;
+    margin: 0 15px;
     display: inline-block;
   }
 
@@ -249,6 +256,12 @@ permalink: /
     .project-grid { grid-template-columns: 1fr; } 
     .intro-section { padding: 50px 0; }
     .intro-title { font-size: 1.8rem; }
+    
+    /* Stack footer on mobile */
+    .custom-footer {
+      flex-direction: column;
+      gap: 20px;
+    }
   }
 </style>
 
@@ -295,9 +308,14 @@ permalink: /
 </div>
 
 <footer class="custom-footer">
-    <a href="https://medium.com/@muthudinesh666" target="_blank">Medium</a>
-    <span class="footer-divider"></span>
-    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    <div class="footer-left">
+        <a href="https://medium.com/@muthudinesh666" target="_blank">Medium</a>
+        <span class="footer-divider"></span>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    </div>
+    <div class="footer-right">
+        Updated on {{ site.time | date: "%d %b" }}
+    </div>
 </footer>
 
 <script>
