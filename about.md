@@ -198,7 +198,7 @@ permalink: /about/
   </div>
 
   <div class="nav-links">
-    <a href="/illustrations">Illustrations</a>
+        <a href="{{ '/illustrations/' | relative_url }}">Illustrations</a>
     <a href="/about" style="color: #000; font-weight: 700;">About me</a> <a href="mailto:your@email.com">Contact</a>
   </div>
 </nav>
@@ -242,7 +242,7 @@ permalink: /about/
     <div class="footer-left">
         <a href="https://medium.com/@muthudinesh666" target="_blank">Medium</a>
         <span class="footer-divider"></span>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/muthudinesh-v-814b77126/" target="_blank">LinkedIn</a>
     </div>
     <div class="footer-right">
         Updated on {{ site.time | date: "%d %b" }}
