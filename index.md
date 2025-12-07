@@ -176,8 +176,8 @@ permalink: /
 </style>
 
 <nav class="custom-nav">
-  <a href="/" class="nav-logo">
-    <img src="https://via.placeholder.com/40x40/000000/FFFFFF?text=M" alt="M Logo" class="logo-img">
+  <a href="/" class="nav-logo" width="100%">
+    <img src="/avatar.png" alt="M Logo" class="logo-img">
     </a>
   <div class="nav-links">
     <a href="/about">About</a>
