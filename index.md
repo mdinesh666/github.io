@@ -43,7 +43,7 @@ permalink: /
 
   /* Placeholder styles for your temp logo image */
   .logo-img {
-    height: 40px; 
+    border-radius: 12%;
     width: auto;
   }
 
