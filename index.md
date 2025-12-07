@@ -45,6 +45,7 @@ permalink: /
   .logo-img {
     border-radius: 12%;
     width: auto;
+    height: 72px;
   }
 
   .nav-links a {
