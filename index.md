@@ -420,7 +420,7 @@ project-card h3 {
   </div>
 
   <div class="nav-links" id="nav-links">
-    <a href="/illustrations">Illustrations</a>
+    <a href="works/illustrations">Illustrations</a>
     <a href="{{ '/about/' | relative_url }}">About me</a>
     <a href="mailto:your@email.com">Contact</a>
   </div>
