@@ -199,7 +199,6 @@ permalink: /about/
 
   <div class="nav-links">
         <a href="{{ '/illustrations/' | relative_url }}">Illustrations</a>
-    <a href="/about" style="color: #000; font-weight: 700;">About me</a> <a href="mailto:your@email.com">Contact</a>
   </div>
 </nav>
 
