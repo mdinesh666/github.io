@@ -65,7 +65,7 @@ permalink: /
 
   .intro-title {
     font-size: 2.2rem;
-    font-weight: 800;
+    font-weight: 500;
     line-height: 1.2;
     margin-bottom: 1.5rem;
     letter-spacing: -0.5px;
@@ -81,7 +81,7 @@ permalink: /
   /* --- 4. WORK GRID (3 Columns) --- */
   
   .work-section-title {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1.8rem;
     letter-spacing: -0.5px;
     margin-bottom: 25px; /* Reduced space between title and cards */
@@ -150,13 +150,13 @@ permalink: /
   .project-card h3 {
     margin: 0 0 10px 0;
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #111;
     line-height: 1.3;
   }
 
   .project-card p {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     color: #666;
     margin: 0;
     line-height: 1.5;
@@ -188,7 +188,7 @@ permalink: /
 <div class="intro-section">
   <h1 class="intro-title">Hi, I am Muthudinesh.</h1>
   <div class="intro-text">
-    I'm a Product Designer at Congruent. By day, I build robust enterprise applications. By night, I tinker with electronics and AI. I bridge the gap between "it looks good" and "it actually works."
+   Product Designer at Congruent. By day, I build robust enterprise applications. By night, I tinker with electronics and AI. I bridge the gap between "it looks good" and "it actually works."
   </div>
 </div>
 
