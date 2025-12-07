@@ -166,27 +166,27 @@ permalink: /illustrations/
 <div class="masonry-grid">
 
   <div class="masonry-item">
-    <img src="https://picsum.photos/400/600?random=1" alt="Illustration 1">
+    <img src="{{ '/assets/1.jpg' | relative_url }}" alt="Illustration 1">
   </div>
 
   <div class="masonry-item">
-    <img src="https://picsum.photos/400/400?random=2" alt="Illustration 2">
+    <img src="{{ '/assets/2.jpg' | relative_url }}" alt="Illustration 2">
   </div>
 
   <div class="masonry-item">
-    <img src="https://picsum.photos/400/300?random=3" alt="Illustration 3">
+    <img src="{{ '/assets/3.jpg' | relative_url }}" alt="Illustration 3">
   </div>
 
   <div class="masonry-item">
-    <img src="https://picsum.photos/400/550?random=4" alt="Illustration 4">
+    <img src="{{ '/assets/4.jpg' | relative_url }}" alt="Illustration 4">
   </div>
 
   <div class="masonry-item">
-    <img src="https://picsum.photos/400/250?random=5" alt="Illustration 5">
+    <img src="{{ '/assets/5.jpg' | relative_url }}" alt="Illustration 5">
   </div>
 
   <div class="masonry-item">
-    <img src="https://picsum.photos/400/400?random=6" alt="Illustration 6">
+    <img src="{{ '/assets/6.jpg' | relative_url }}" alt="Illustration 6">
   </div>
 
 </div>
